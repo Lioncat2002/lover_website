@@ -19,13 +19,16 @@
     
     <div class="row">
         <div class="col s12">
-            <select id="lang">
+            <select id="letter_type">
                 <option value="-1" selected >Neutral letter</option>
                 <option value="0" >Letter to a girl</option>
                 </select>
         </div>
-        <div class="col s12" id="letter">
-            
+        <button class="btn" onclick="fetch_letter()">Submit</button>
+        <div class="col s12">
+            <h5  id="letter">
+
+            </h5>
         </div>
     </div>
     <script>
